@@ -25,6 +25,7 @@ You can enable Inband channel occupancy events by specifying `occupancy` param. 
  
 Member | Type | Description |
 |---|---|---|
+| connections | Integer | Number of connections that are authorised to enter members | 
 | publishers | Integer | Number of connections attached to the channel that are authorized to publish |
 | subscribers | Integer | Number of connections attached that are authorized to subscribe to messages |
 | presenceSubscribers | Integer | Number of connections that are authorized to subscribe to presence messages |
